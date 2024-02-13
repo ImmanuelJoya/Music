@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="overlay">
+    <h1>Where words fail, music speaks</h1>
+    <h3>Music, the greatest discovery of mankind</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
+        <br>
+
+            </div>
+    </header>
+    
+    <main>
+        <nav>
+            <button id="lyrics-btn">Imagin</button>
+            <button id="page2-btn">Can't take my eyes of you</button>
+            <button id="page3-btn">Fortunate son</button>
+        </nav>
+        <section id="content"></section>
+    </main>
+
+    <fieldset>
+        <div class="row">
+<div class="column">
+
+    <p>
+
+        Music is a moral law. It gives soul to the universe,<br> 
+        wings to the mind, flight to the imagination,<br>
+        and charm and gaiety to life and to everything.
+
+    </p>
+
+</div>
+        
+
+<div class="column">
+
+    <p>
+
+        Music is a moral law. It gives soul to the universe,<br> 
+        wings to the mind, flight to the imagination,<br>
+        and charm and gaiety to life and to everything.        
+
+    </p>
+
+</div>
+
+<div class="column">
+
+    <p>
+
+        “A great song should lift your heart,<br> 
+        warm the soul and make you feel good.”
+    </p>
+
+</div>
+</div>
+
+    </fieldset>
+
+    <footer>
+        <p>&copy; 2024 Imerse in Music. All rights reserved.</p>
+    </footer>
+    <script src="front-page.js"></script>
+</body>
+</html>
+
+
+///css///
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#content {
+    margin: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+
+fieldset{
+    border:none;
+    width:80%;
+    margin:auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
